@@ -1,0 +1,291 @@
+{
+  "id": "bfe4ccff-c3c2-455a-8165-bb0960070710",
+  "version": "2.0",
+  "name": "Fedex",
+  "url": "https://www.fedex.com/en-us/home.html",
+  "tests": [{
+    "id": "cd6bc66f-367b-4af8-bb89-aaad61f740a0",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "8f8a6156-aee3-4134-b71c-b0af7cadc94e",
+    "name": "Wrong username/Password",
+    "commands": [{
+      "id": "3efdf3dc-d086-4bb5-98dd-4f4fcd2ba532",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.fedex.com/en-us/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "286de88c-9d81-4e57-a043-da995ea6af7c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x868",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30bf9ce2-bc10-4436-a096-c7d273d95077",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fxg-user-options__sign-in-text",
+      "targets": [
+        ["css=.fxg-user-options__sign-in-text", "css:finder"],
+        ["xpath=//a[@id='fxg-dropdown-signIn']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign Up or Log In ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b753fae-3d18-4778-aa7c-7f4aed556dcf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SIGN UP / LOG IN",
+      "targets": [
+        ["linkText=SIGN UP / LOG IN", "linkText"],
+        ["css=.button_v1:nth-child(1) .fxg-link--blue", "css:finder"],
+        ["xpath=//a[contains(text(),'SIGN UP / LOG IN')]", "xpath:link"],
+        ["xpath=(//a[@onclick='FDX.DTM.pushLinkInfo(this)'])[31]", "xpath:attributes"],
+        ["xpath=//div[@id='global-login-wrapper']/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.fedex.com/secure-login/en-us/')]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SIGN UP / LOG IN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb1a04cd-25c9-4439-a78d-87a5bd254fa6",
+      "comment": "",
+      "command": "click",
+      "target": "id=userId",
+      "targets": [
+        ["id=userId", "id"],
+        ["css=#userId", "css:finder"],
+        ["xpath=//input[@id='userId']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bef2758c-fa11-4c01-b612-e831b4eb80e0",
+      "comment": "",
+      "command": "type",
+      "target": "id=userId",
+      "targets": [
+        ["id=userId", "id"],
+        ["css=#userId", "css:finder"],
+        ["xpath=//input[@id='userId']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "user333"
+    }, {
+      "id": "c8dcb4cf-bc6d-42b0-83d2-c4b22114d485",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//ciam-password-module/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7b453fd-e7ed-4d87-9cd2-605897788295",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//ciam-password-module/div/div/input", "xpath:position"]
+      ],
+      "value": "password"
+    }, {
+      "id": "dcb9e4d9-c368-4ab5-99b5-dbd08425cb5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fdx-c-loading-indicator__part:nth-child(4)",
+      "targets": [
+        ["css=.fdx-c-loading-indicator__part:nth-child(4)", "css:finder"],
+        ["xpath=//button[@id='login-btn']/span/span[2]/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acfd984d-c36e-4a40-8064-7c59f28fb372",
+      "comment": "",
+      "command": "click",
+      "target": "id=invalidCredentials",
+      "targets": [
+        ["id=invalidCredentials", "id"],
+        ["css=#invalidCredentials", "css:finder"],
+        ["xpath=//div[@id='invalidCredentials']", "xpath:attributes"],
+        ["xpath=//span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "582ec126-52a3-4ed2-b6be-0ec4714ba0ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=invalidCredentials",
+      "targets": [
+        ["id=invalidCredentials", "id"],
+        ["css=#invalidCredentials", "css:finder"],
+        ["xpath=//div[@id='invalidCredentials']", "xpath:attributes"],
+        ["xpath=//span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15aea47a-901a-42ba-9fd3-3780d8382b9b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=invalidCredentials",
+      "targets": [
+        ["id=invalidCredentials", "id"],
+        ["css=#invalidCredentials", "css:finder"],
+        ["xpath=//div[@id='invalidCredentials']", "xpath:attributes"],
+        ["xpath=//span/div/div", "xpath:position"]
+      ],
+      "value": "Login incorrect. Either the user ID or password combination is incorrect or the account has been locked. Please try again or reset your password."
+    }]
+  }, {
+    "id": "c9a11e03-7f37-4ec5-bc9b-47abb969c326",
+    "name": "Password less than 8 characters",
+    "commands": [{
+      "id": "6d10a41c-f563-43de-9ab9-0974ae9935f4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.fedex.com/en-us/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bc30d5d-13fe-49a9-a64a-78a9e39b9333",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x868",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bc2c70d-baa7-452f-b48b-2343888f525c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fxg-user-options__sign-in-text",
+      "targets": [
+        ["css=.fxg-user-options__sign-in-text", "css:finder"],
+        ["xpath=//a[@id='fxg-dropdown-signIn']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign Up or Log In ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d0f50f4-87e4-4353-9c22-933903fbbc0f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SIGN UP / LOG IN",
+      "targets": [
+        ["linkText=SIGN UP / LOG IN", "linkText"],
+        ["css=.button_v1:nth-child(1) .fxg-link--blue", "css:finder"],
+        ["xpath=//a[contains(text(),'SIGN UP / LOG IN')]", "xpath:link"],
+        ["xpath=(//a[@onclick='FDX.DTM.pushLinkInfo(this)'])[31]", "xpath:attributes"],
+        ["xpath=//div[@id='global-login-wrapper']/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.fedex.com/secure-login/en-us/')]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SIGN UP / LOG IN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8111c20a-c497-4c23-ab4a-69dd506716c8",
+      "comment": "",
+      "command": "click",
+      "target": "id=userId",
+      "targets": [
+        ["id=userId", "id"],
+        ["css=#userId", "css:finder"],
+        ["xpath=//input[@id='userId']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "421d8a86-2e1c-492e-8b57-4376592b5992",
+      "comment": "",
+      "command": "type",
+      "target": "id=userId",
+      "targets": [
+        ["id=userId", "id"],
+        ["css=#userId", "css:finder"],
+        ["xpath=//input[@id='userId']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "user333"
+    }, {
+      "id": "ce63297c-920d-4a34-be77-e06d816d4035",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//ciam-password-module/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0bceda6-cd19-4ead-a2bc-0a68feac25fe",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//ciam-password-module/div/div/input", "xpath:position"]
+      ],
+      "value": "av2"
+    }, {
+      "id": "d6780ef3-b59c-4ca5-8a02-954c6df9bb5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fdx-c-button__title",
+      "targets": [
+        ["css=.fdx-c-button__title", "css:finder"],
+        ["xpath=//button[@id='login-btn']/span/span", "xpath:idRelative"],
+        ["xpath=//ciam-spinner-button/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27ae0da1-9014-43f9-b3ff-9d7333e43425",
+      "comment": "",
+      "command": "click",
+      "target": "id=invalidCredentials",
+      "targets": [
+        ["id=invalidCredentials", "id"],
+        ["css=#invalidCredentials", "css:finder"],
+        ["xpath=//div[@id='invalidCredentials']", "xpath:attributes"],
+        ["xpath=//span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c0c0239-60ca-4faf-b859-c21185c3e14a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=invalidCredentials",
+      "targets": [
+        ["id=invalidCredentials", "id"],
+        ["css=#invalidCredentials", "css:finder"],
+        ["xpath=//div[@id='invalidCredentials']", "xpath:attributes"],
+        ["xpath=//span/div/div", "xpath:position"]
+      ],
+      "value": "Login incorrect. Either the user ID or password combination is incorrect or the account has been locked. Please try again or reset your password."
+    }]
+  }],
+  "suites": [{
+    "id": "ff164752-9fb3-4c0f-aad0-7234e46969c9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cd6bc66f-367b-4af8-bb89-aaad61f740a0"]
+  }],
+  "urls": ["https://www.fedex.com/en-us/home.html"],
+  "plugins": []
+}
