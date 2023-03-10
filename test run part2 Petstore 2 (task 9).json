@@ -1,0 +1,537 @@
+{
+	"id": "4740dfa8-cfc4-4857-9c11-fd172b2565e6",
+	"name": "Swagger Petstore 2 (task 8)",
+	"timestamp": "2023-03-10T07:21:37.022Z",
+	"collection_id": "25900223-2ab4b15d-ee61-496d-aa1b-43172de46507",
+	"folder_id": 0,
+	"environment_id": "25900223-a48b66e1-82f4-4296-a185-b2ee54c708b6",
+	"totalPass": 10,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-03-10T07:21:33.039Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e5feb9c4-d33e-41bd-b8b2-b2acd15de4e1",
+			"name": "Find pet by ID",
+			"url": "https://petstore.swagger.io/v2/pet/-7193863",
+			"time": 372,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				372
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ac4b170a-36c0-4ad5-8b85-be938c900205",
+			"name": "Updates a pet in the store with form data",
+			"url": "https://petstore.swagger.io/v2/pet/-7193863",
+			"time": 94,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				94
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f855fb4b-ead2-4992-9a87-e18681a28720",
+			"name": "Deletes a pet",
+			"url": "https://petstore.swagger.io/v2/pet/-7193863",
+			"time": 86,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				86
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9683116a-3f3f-4b1a-9c78-e94c0ee38a63",
+			"name": "uploads an image",
+			"url": "https://petstore.swagger.io/v2/pet/-7193863/uploadImage",
+			"time": 86,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				86
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d5af6d12-26cd-4034-a6e2-1aa1da8fd3c5",
+			"name": "Add a new pet to the store",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 89,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				89
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a4f171aa-9337-49ae-9543-3048f1fc1b25",
+			"name": "Update an existing pet",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 94,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				94
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1a166815-7041-4c33-a880-c6aa5e71b688",
+			"name": "Finds Pets by status",
+			"url": "https://petstore.swagger.io/v2/pet/findByStatus?status=available&status=available",
+			"time": 168,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				168
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "a7b2ccee-9e00-45a4-80c3-60af07939135",
+			"name": "Finds Pets by tags",
+			"url": "https://petstore.swagger.io/v2/pet/findByTags?tags=esse dolore in&tags=fugiat magna aliquip et",
+			"time": 81,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				81
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "afe98933-d0e1-4e64-8637-5f4e25f9e18e",
+			"name": "Find purchase order by ID",
+			"url": "https://petstore.swagger.io/v2/store/order/7",
+			"time": 84,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				84
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0dcf6eb5-f486-4486-bc6a-61c09790662e",
+			"name": "Delete purchase order by ID",
+			"url": "https://petstore.swagger.io/v2/store/order/88840126",
+			"time": 84,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				84
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "eaff43ec-7f01-4d0c-9f54-4c5ecd14dc05",
+			"name": "Place an order for a pet",
+			"url": "https://petstore.swagger.io/v2/store/order",
+			"time": 91,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				91
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ad643705-d200-43e4-827d-0ce3bc38b5ab",
+			"name": "Returns pet inventories by status",
+			"url": "https://petstore.swagger.io/v2/store/inventory",
+			"time": 83,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				83
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "8b19b0df-4cef-4599-8dc6-83c1cbb61053",
+			"name": "Get user by user name",
+			"url": "https://petstore.swagger.io/v2/user/sed dolore voluptate ullamco",
+			"time": 86,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				86
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "aafe9cdb-376f-430f-bf00-e6bfa27b6de2",
+			"name": "Updated user",
+			"url": "https://petstore.swagger.io/v2/user/sed dolore voluptate ullamco",
+			"time": 88,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				88
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9b825a04-7e58-4e26-a68a-d59c37a0fca5",
+			"name": "Delete user",
+			"url": "https://petstore.swagger.io/v2/user/sed dolore voluptate ullamco",
+			"time": 82,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				82
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "cda7aab6-1bca-40f1-96b9-e4e57641b3dc",
+			"name": "Create user",
+			"url": "https://petstore.swagger.io/v2/user",
+			"time": 87,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				87
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "de564641-1597-4946-a32d-d79fd11bc4f5",
+			"name": "Logs user into the system",
+			"url": "https://petstore.swagger.io/v2/user/login?username=sed dolore voluptate ullamco&password=sed dolore voluptate ullamco",
+			"time": 97,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				97
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "174e5cf9-e5d9-4f15-b737-0a8b57e9a51a",
+			"name": "Logs out current logged in user session",
+			"url": "https://petstore.swagger.io/v2/user/logout",
+			"time": 84,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				84
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "dd4623d1-b7da-4d6b-b21b-6233fcf8498f",
+			"name": "Creates list of users with given input array",
+			"url": "https://petstore.swagger.io/v2/user/createWithArray",
+			"time": 85,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				85
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7f165137-681f-4d40-8f5a-2e94947c1bf0",
+			"name": "Creates list of users with given input array",
+			"url": "https://petstore.swagger.io/v2/user/createWithList",
+			"time": 107,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				107
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2128,
+	"collection": {
+		"requests": [
+			{
+				"id": "e5feb9c4-d33e-41bd-b8b2-b2acd15de4e1",
+				"method": "GET"
+			},
+			{
+				"id": "ac4b170a-36c0-4ad5-8b85-be938c900205",
+				"method": "POST"
+			},
+			{
+				"id": "f855fb4b-ead2-4992-9a87-e18681a28720",
+				"method": "DELETE"
+			},
+			{
+				"id": "9683116a-3f3f-4b1a-9c78-e94c0ee38a63",
+				"method": "POST"
+			},
+			{
+				"id": "d5af6d12-26cd-4034-a6e2-1aa1da8fd3c5",
+				"method": "POST"
+			},
+			{
+				"id": "a4f171aa-9337-49ae-9543-3048f1fc1b25",
+				"method": "PUT"
+			},
+			{
+				"id": "1a166815-7041-4c33-a880-c6aa5e71b688",
+				"method": "GET"
+			},
+			{
+				"id": "a7b2ccee-9e00-45a4-80c3-60af07939135",
+				"method": "GET"
+			},
+			{
+				"id": "afe98933-d0e1-4e64-8637-5f4e25f9e18e",
+				"method": "GET"
+			},
+			{
+				"id": "0dcf6eb5-f486-4486-bc6a-61c09790662e",
+				"method": "DELETE"
+			},
+			{
+				"id": "eaff43ec-7f01-4d0c-9f54-4c5ecd14dc05",
+				"method": "POST"
+			},
+			{
+				"id": "ad643705-d200-43e4-827d-0ce3bc38b5ab",
+				"method": "GET"
+			},
+			{
+				"id": "8b19b0df-4cef-4599-8dc6-83c1cbb61053",
+				"method": "GET"
+			},
+			{
+				"id": "aafe9cdb-376f-430f-bf00-e6bfa27b6de2",
+				"method": "PUT"
+			},
+			{
+				"id": "9b825a04-7e58-4e26-a68a-d59c37a0fca5",
+				"method": "DELETE"
+			},
+			{
+				"id": "cda7aab6-1bca-40f1-96b9-e4e57641b3dc",
+				"method": "POST"
+			},
+			{
+				"id": "de564641-1597-4946-a32d-d79fd11bc4f5",
+				"method": "GET"
+			},
+			{
+				"id": "174e5cf9-e5d9-4f15-b737-0a8b57e9a51a",
+				"method": "GET"
+			},
+			{
+				"id": "dd4623d1-b7da-4d6b-b21b-6233fcf8498f",
+				"method": "POST"
+			},
+			{
+				"id": "7f165137-681f-4d40-8f5a-2e94947c1bf0",
+				"method": "POST"
+			}
+		]
+	}
+}
